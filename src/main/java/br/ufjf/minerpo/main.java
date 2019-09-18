@@ -2,6 +2,7 @@
 package br.ufjf.minerpo;
 
 import java.io.IOException;
+import java.text.ParseException;
 
 /**
  *
@@ -9,10 +10,10 @@ import java.io.IOException;
  */
 public class main {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, ParseException {
 
         Minera m = new Minera();
-        m.searchUsers();
+        m.montaColaboradores("Juiz de Fora");
     }
 
 }
